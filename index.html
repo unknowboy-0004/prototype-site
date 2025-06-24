@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Smart Prototype</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">MySite</div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#home" class="nav-item active">Home</a></li>
+      <li><a href="#features" class="nav-item">Features</a></li>
+      <li><a href="#contact" class="nav-item">Contact</a></li>
+      <li><button id="theme-toggle" class="theme-toggle">🌓</button></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+  <header class="hero" id="home">
+    <div class="hero-content">
+      <h1>Welcome to Our Prototype</h1>
+      <p>Clean, fast, responsive, and now with dark mode!</p>
+      <a href="#features" class="btn">Explore Features</a>
+    </div>
+  </header>
+
+  <section class="features" id="features">
+    <div class="feature" data-animate>
+      <h2>Speed</h2>
+      <p>Fast and lightweight with smooth scroll and transitions.</p>
+    </div>
+    <div class="feature" data-animate>
+      <h2>Responsive</h2>
+      <p>Works beautifully across all devices and screen sizes.</p>
+    </div>
+    <div class="feature" data-animate>
+      <h2>Customizable</h2>
+      <p>Dark mode and theming included out of the box.</p>
+    </div>
+  </section>
+
+  <section class="parallax">
+    <div class="overlay">
+      <h2>Designed for Everyone</h2>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <form id="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Smart Prototype. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
